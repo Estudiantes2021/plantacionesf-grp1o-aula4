@@ -1,0 +1,180 @@
+*
+
+{margin:10px;
+    padding: 0px;
+    font-family:Helvetica;
+
+}
+*
+{margin:8px;
+    padding: 0px;
+}
+
+
+.logo
+{ width: 100%;
+ height: 100%;
+
+}
+
+header
+{   
+background-attachment:fixed;
+background-size: cover;
+}
+
+
+body
+{
+background-color: gainsboro;
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 10;
+}
+
+
+nav
+{ background-color: rgb(4, 5, 4);
+    margin-top: 1px;
+}
+   
+   
+   nav ol 
+    {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+
+     ol li {
+
+        float: right;
+        border-top: 1px;
+      }
+      
+      li a {
+        color: white;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: block;
+        padding: 10px;
+        background-color: #0bdb8b;
+        text-decoration: none;
+        text-align: center;
+      }      
+
+      #linkext
+      {
+        color: gray;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: block;
+        padding: 10px;
+        background-color: #02b6d6;
+        text-decoration: none;
+        text-align: center;
+      }
+h1
+{margin: 2cm; color:lightseagreen; text-align:center; 
+}
+
+h2
+{ font-family: 'Dancing Script', cursive; color: lightseagreen; text-align: center;
+
+}
+
+h3
+{color: lightseagreen; text-align: center; font-family: 'Dancing Script';
+} 
+
+p
+{ font-size:x-large; font-style: mono ;  color: black; text-align: left;
+
+}
+p
+
+{margin-top: 3cm;
+    box-shadow: 20px 20px 20px 20px; box-shadow: 5px 5px 5px black;
+}
+
+image
+{ border-image: 5px; color: black; 
+}
+
+#foto
+{display: block; margin: auto; margin-top: 2cm;
+
+}
+
+
+*
+{margin: 10px;
+    padding: 0px;}
+
+#formcont 
+{
+    width: 450px;
+    margin:auto; 
+    background: rgba( 0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin: 20px ;
+    border: 8px;
+
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none; 
+}
+
+textarea
+{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+
+}
+
+#button
+{ background: black;
+    color: grey;
+    padding: 10px;
+}
+
+#button {
+cursor: pointer;
+}
+.form {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+  }
+
+  .form input {
+    width: 90%;
+    height: 40px;
+    margin: 0.5rem;
+  }
+
+footer
+{
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 1;
+    color:darkblue; 
+    text-align: center;
+    margin-top: 3cm;
+    
+
+}
